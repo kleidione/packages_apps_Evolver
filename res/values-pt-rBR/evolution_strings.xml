@@ -95,6 +95,39 @@
     <string name="lock_screen_miscellaneous_category">Diversos</string>
     <string name="lock_screen_pocket_detection_title">Detecção de bolso</string>
     <string name="lock_screen_pocket_detection_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
+    <string name="lock_screen_always_on_pocket_mode_title">Sempre em modo de bolso</string>
+    <string name="lock_screen_always_on_pocket_mode_summary">Sempre bloqueie as entradas de tela e botões quando a tela estiver ligada</string>
+    <!-- Lock screen/Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">Sobre o pulso</string>
+    <string name="pulse_help_policy_notice_summary">Pulso é um equalizador gráfico de áudio brilhante quando a música é reproduzida no dispositivo</string>
+    <string name="lock_screen_pulse_settings_title">Pulso</string>
+    <string name="lock_screen_pulse_settings_summary">Equalizador gráfico de áudio para barra de navegação e tela de bloqueio</string>
+    <string name="show_navbar_pulse_title">Pulso da barra de navegação</string>
+    <string name="show_navbar_pulse_summary">Equalizador gráfico de áudio na barra de navegação</string>
+    <string name="show_lockscreen_pulse_title">Pulso de tela de bloqueio</string>
+    <string name="show_lockscreen_pulse_summary">Equalizador gráfico de áudio na tela de bloqueio</string>
+    <string name="show_ambient_pulse_title">Pulso de tela ambiente</string>
+    <string name="show_ambient_pulse_summary">Equalizador gráfico de áudio na tela ambiente</string>
+    <string name="pulse_render_mode_title">Modo de renderização</string>
+    <string name="pulse_render_mode_fading_bars">Blocos de desvanecimento</string>
+    <string name="pulse_render_mode_solid_lines">Linhas sólidas</string>
+    <string name="pulse_legacy_mode_advanced_category">Configurações do modo de blocos desbotados</string>
+    <string name="pulse_custom_fudge_factor">Nível de sanidade</string>
+    <string name="pulse_lavalamp_speed_title">Velocidade da lâmpada de lava</string>
+    <string name="pulse_solid_units_count">Contagem de linhas sólidas</string>
+    <string name="pulse_solid_units_opacity">Opacidade de linhas sólidas</string>
+    <string name="pulse_solid_dimen_category">Configurações do modo de linhas sólidas</string>
+    <string name="pulse_color_mode_title">Cor</string>
+    <string name="pulse_color_accent">Destaque</string>
+    <string name="pulse_color_custom">Personalizavél</string>
+    <string name="pulse_color_lava_lamp">Lâmpada de lava</string>
+    <string name="pulse_color_user_title">Escolha a cor</string>
+    <string name="pulse_smoothing_enabled_title">Ativar suavização</string>
+    <string name="pulse_smoothing_enabled_summary">Cada barra é animada de forma mais suave</string>
+    <string name="pulse_custom_dimen">Largura da barra</string>
+    <string name="pulse_custom_div">Espaçamento de barras</string>
+    <string name="pulse_filled_block_size">Tamanho do bloco</string>
+    <string name="pulse_empty_block_size">Espaçamento de blocos</string>
     <!-- Status bar -->
     <string name="status_bar_gestures_category">Gestos</string>
     <string name="status_bar_brightness_control_title">Controle de brilho ao deslizar</string>
@@ -207,6 +240,8 @@
     <string name="status_bar_battery_bar_summary">Exibir e personalizar a barra de bateria acima da barra de status</string>
     <string name="status_bar_lyrics_title">Letras de música da barra de status</string>
     <string name="status_bar_lyrics_summary">Exibir letras de música na barra de status (requer o aplicativo StatusBarLyricExt)</string>
+    <string name="status_bar_carrier_lock_screen_title">Nome da operadora na tela de bloqueio</string>
+    <string name="status_bar_carrier_lock_screen_summary">Exibir o nome da operadora na barra de status da tela de bloqueio</string>
     <!-- Status bar/Clock & date-->
     <string name="status_bar_clock_position_title">Posição do relógio</string>
     <string name="status_bar_clock_position_right">Direita</string>
@@ -286,6 +321,34 @@
     <string name="battery_bar_blend_color_reverse_summary_on">Cheio &#8594; vazio: vermelho &#8594; verde &#8594; azul &#8594; vermelho</string>
     <!-- Quick settings -->
     <string name="quick_settings_interface_category">Interface</string>
+    <string name="quick_settings_tile_ui_style_title">Estilo de blocos QS</string>
+    <string name="quick_settings_tile_ui_style_a11_circle">Blocos circulares</string>
+    <string name="quick_settings_tile_ui_style_a11_square">Blocos quadrados</string>
+    <string name="quick_settings_tile_ui_style_a11_mix">Círculo &amp; Blocos quadrados</string>
+    <string name="quick_settings_panel_style_title">Estilo de painel QS</string>
+    <string name="quick_settings_panel_style_outline">Contorno</string>
+    <string name="quick_settings_panel_style_two_tone">Dois tons de destaque</string>
+    <string name="quick_settings_panel_style_color_pop">Pop</string>
+    <string name="quick_settings_panel_style_shaded">Sombreado</string>
+    <string name="quick_settings_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="quick_settings_panel_style_neumorph">Neumorfo</string>
+    <string name="quick_settings_panel_style_reflected">Refletido</string>
+    <string name="quick_settings_panel_style_surround">Surround</string>
+    <string name="quick_settings_panel_style_thin">Linha fina</string>
+    <string name="quick_settings_tile_label_hide_title">Ocultar rótulo</string>
+    <string name="quick_settings_tile_label_size_title">Tamanho do texto do rótulo</string>
+    <string name="quick_settings_tile_label_hide_summary">Mostrar apenas o ícone no bloco</string>
+    <string name="quick_settings_tile_layout_title">Layout vertical</string>
+    <string name="quick_settings_tile_layout_summary">Mostrar rótulo abaixo do ícone em vez de próximo ao ícone</string>
+    <string name="quick_settings_layout_columns_rows_title">Colunas &amp; linhas</string>
+    <string name="quick_settings_layout_columns_rows_summary">Personalize colunas e linhas QS</string>
+    <string name="quick_settings_layout_columns_rows_footer_text">As linhas QS devem ser iguais ou maiores que as linhas QQS. Use um número maior de colunas para o estilo de bloco QS circular/quadrado (A11).</string>
+    <string name="quick_settings_columns_portrait_title">Colunas (retrato)</string>
+    <string name="quick_settings_columns_landscape_title">Colunas (paisagem)</string>
+    <string name="quick_settings_rows_portrait_title">Linhas (retrato)</string>
+    <string name="quick_settings_rows_landscape_title">Linhas (paisagem)</string>
+    <string name="quick_settings_qqs_rows_portrait_title">Linhas QS rápidas (retrato)</string>
+    <string name="quick_settings_qqs_rows_landscape_title">Linhas QS rápidas (paisagem)</string>
     <string name="quick_settings_show_brightness_slider_title">Controle de brilho</string>
     <string name="quick_settings_show_brightness_slider_never">Nunca mostrar</string>
     <string name="quick_settings_show_brightness_slider_expanded">Mostrar apenas quando expandido</string>
@@ -322,6 +385,8 @@
     <string name="quick_settings_miscellaneous_category">Diversos</string>
     <string name="quick_settings_bluetooth_auto_on_title">Ativar bluetooth automaticamente</string>
     <string name="quick_settings_bluetooth_auto_on_summary">Ativar o bluetooth automaticamente ao abrir a caixa de diálogo nas configurações rápidas</string>
+    <string name="quick_settings_bluetooth_show_dialog_title">Caixa de diálogo do Bluetooth</string>
+    <string name="quick_settings_bluetooth_show_dialog_summary">Mostrar diálogo do bluetooth ou alternar estado do bluetooth ao tocar no bloco do bluetooth</string>
     <!-- Notifications -->
     <string name="notifications_interface_category">Interface</string>
     <string name="notifications_edge_light_title">Iluminação nas bordas da tela</string>
@@ -334,6 +399,7 @@
     <string name="notifications_alert_display_on_title">Alerta enquanto a tela estiver ligada</string>
     <string name="notifications_alert_display_on_summary">Reproduza som e vibração para notificações enquanto a tela estiver ligada</string>
     <!-- Notifications/Edge light -->
+    <string name="notifications_heads_up_title">Pop-up</string>
     <string name="notifications_edge_light_enable_ttile">Ativar</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_title">Sempre mostrar as luzes</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_summary">Mostrar a luz de borda sempre que a tela ambiente é exibida e não apenas para notificações</string>
@@ -345,6 +411,9 @@
     <string name="island_notification_now_playing_title">Tocando agora</string>
     <string name="island_notification_now_playing_summary">Mostrar música atualmente reproduzindo no estilo ilha dinâmica</string>
     <string name="island_notification_footer_text">O recurso de notificação de Ilha, inspirado pela Ilha Dinâmica do iOS, transforma notificações flutuantes do Android em um utilitário de notificação compacto e de acesso rápido.\n\nControles de Acesso Rápido à Ilha inclui os seguintes recursos:\n1. Toque na notificação em ilha para atender rapidamente as chamadas telefônicas.\n2. Toque e segure na notificação em ilha para rejeitar as chamadas telefônicas.\n3. Toque e segure na notificação em ilha para expandir a prévia da notificação em ilha.</string>
+    <!-- Notifications/Less boring heads up -->
+    <string name="notifications_less_boring_heads_up_title">Menos irritante</string>
+    <string name="notifications_less_boring_heads_up_summary">Exibir notificações pop-up apenas para alarme, discador e aplicativo de mensagens</string>
     <!-- Power menu -->
     <string name="power_menu_interface_category">Interface</string>
     <string name="power_menu_actions_title">Ações do menu liga/desliga</string>
@@ -371,25 +440,35 @@
     <string name="miscellaneous_developer_options_category">Opções do desenvolvedor</string>
     <string name="miscellaneous_app_downgrade_title">Permitir retornar para versões anteriores do aplicativo</string>
     <string name="miscellaneous_app_downgrade_summary">Permitir downgrade de aplicativos do sistema, que podem resultar em falhas e perda de dados</string>
+    <string name="miscellaneous_block_wallpaper_dimming_title">Ignorar solicitações de escurecimento do papel de parede</string>
+    <string name="miscellaneous_block_wallpaper_dimming_summary">Bloqueia todos os aplicativos de definir o escurecimento do papel de parede\nForça o escurecimento para 0</string>
     <string name="miscellaneous_ignore_window_secure_title">Remover restrição de captura de tela</string>
     <string name="miscellaneous_ignore_window_secure_summary">Remover restrições em capturas e gravações de tela para todos os aplicativos, correndo potencialmente o risco de vazamentos de privacidade</string>
+    <string name="miscellaneous_unlimit_screenrecord_title">Gravação de tela ilimitada</string>
+    <string name="miscellaneous_unlimit_screenrecord_summary">Remova o limite de tamanho de arquivo de 15 GiB\nPode resultar em um arquivo de saída maior do que o necessário</string>
     <!-- Miscellaneous/Spoofing -->
     <string name="spoofing_title">Mascaramento de componente</string>
     <string name="spoofing_summary">Ignorar restrições de aplicativos por mascaramento de componentes</string>
     <string name="spoofing_system_wide_category">No sistema inteiro</string>
-    <string name="spoofing_pif_toggle_title">Correção para o Play Integrity</string>
+    <string name="spoofing_pif_toggle_title">Correção de integridade do sistema</string>
     <string name="spoofing_pif_toggle_summary">Usar os valores de correção de Integridade integrados na ROM</string>
-    <string name="spoofing_pif_values_title">Valores de correção para o Play Integrity</string>
-    <string name="spoofing_pif_values_summary">Exibir valores atuais usados para mascarar GMS para certificação da API Play Integrity</string>
+    <string name="spoofing_pif_values_title">Valores de correção de integridade do sistema</string>
+    <string name="spoofing_pif_values_summary">Exibir valores atuais usados para mascarar GMS para certificação da API de integridade do sistema</string>
     <string name="spoofing_pixel_props_title">Propriedades do Pixel</string>
     <string name="spoofing_pixel_props_summary">Mascara o dispositivo como Pixel 8 Pro para todos os aplicativos do Google</string>
     <string name="spoofing_storage_encryption_title">Criptografia de armazenamento</string>
     <string name="spoofing_storage_encryption_summary">Mascara o status da criptografia de armazenamento do dispositivo para \'Encriptado\'</string>
     <string name="spoofing_app_specific_category">Específico do Aplicativo</string>
+    <string name="spoofing_vending_title">Mascarar Play Store</string>
+    <string name="spoofing_vending_summary">Mascare a Play Store para o dispositivo Pixel mais recente</string>
+    <string name="spoofing_photos_title">Mascarar Google Fotos</string>
+    <string name="spoofing_photos_summary">Mascarar o aplicativo Google Fotos como um Pixel XL</string>
     <string name="spoofing_games_title">FPS mais alto em jogos</string>
     <string name="spoofing_games_summary">Mascara o dispositivo como modelos diferentes para jogos selecionados para desbloquear FPS mais altos</string>
     <string name="spoofing_snapchat_title">Mascarar Snapchat</string>
     <string name="spoofing_snapchat_summary">Mascarar seu dispositivo como Pixel 2 para Snapchat para permitir capturas de qualidade original</string>
+    <string name="spoofing_snap_title">Mascarar Snapchat</string>
+    <string name="spoofing_snap_summary">Mascarar o Snapchat como um Pixel XL para corrigir possíveis problemas de bate-papo</string>
     <!-- Navigation Bar -->
     <string name="navbar_layout_category_title">Botão da barra de navegação</string>
     <string name="navbar_layout_title">Layout</string>
@@ -407,6 +486,10 @@
     <string name="about_discord_summary">Visite o chat da nossa comunidade</string>
     <string name="about_github_summary">Confira o nosso GitHub</string>
     <string name="about_contributors_title">Equipe Evolution X</string>
+    <!-- Black themes for dark mode -->
+    <string name="black_theme_style_title">Estilo do tema preto</string>
+    <string name="black_theme_style_berry">Berry black</string>
+    <string name="black_theme_style_amoled">True amoled dark</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Selecione a cor abaixo para aplicar</string>
